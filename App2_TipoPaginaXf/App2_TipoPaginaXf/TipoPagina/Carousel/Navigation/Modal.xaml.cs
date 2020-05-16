@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App2_TipoPaginaXf.TipoPagina.Carousel
+namespace App2_TipoPaginaXf.TipoPagina.Carousel.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TipoPagina3 : ContentPage
+    public partial class Modal : ContentPage
     {
-        public TipoPagina3()
+        public Modal()
         {
             InitializeComponent();
-        }
-
-        private void MudarPagina(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new Navigation.Pagina1();
         }
     }
 }
