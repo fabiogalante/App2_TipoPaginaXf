@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="App2_TipoPaginaXf.TipoPagina.Carousel.TipoPagina2"  BackgroundColor="Brown">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="[Tipo de página 2]" TextColor="Blue" HorizontalOptions="CenterAndExpand" />
             <Image Source="Page.png"/>
         </StackLayout>

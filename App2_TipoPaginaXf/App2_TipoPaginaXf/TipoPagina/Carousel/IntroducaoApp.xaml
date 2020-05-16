@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              xmlns:carousel="clr-namespace:App2_TipoPaginaXf.TipoPagina.Carousel;assembly=App2_TipoPaginaXf"
+              mc:Ignorable="d"
+              x:Class="App2_TipoPaginaXf.TipoPagina.Carousel.IntroducaoApp">
+    <carousel:TipoPagina1 />
+    <carousel:TipoPagina2 />
+    <carousel:TipoPagina3 />
+
+
+</CarouselPage>

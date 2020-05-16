@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="App2_TipoPaginaXf.TipoPagina.Carousel.TipoPagina3" BackgroundColor="Gold">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="[Tipo de página 3]" TextColor="Blue" HorizontalOptions="CenterAndExpand" />
             <Button  ImageSource="play.png"/>
 
