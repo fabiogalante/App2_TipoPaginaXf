@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App2_TipoPaginaXf.TipoPagina.Carousel.Navigation
+namespace App2_TipoPaginaXf.TipoPagina.Master
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Pagina1 : ContentPage
+    public partial class Conteudo : ContentPage
     {
-        public Pagina1()
+        public Conteudo()
         {
             InitializeComponent();
         }

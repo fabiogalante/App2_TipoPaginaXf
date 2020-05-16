@@ -19,22 +19,31 @@
     <Compile Update="TipoPagina\Carousel\IntroducaoApp.xaml.cs">
       <DependentUpon>IntroducaoApp.xaml</DependentUpon>
     </Compile>
-    <Compile Update="TipoPagina\Carousel\Navigation\Modal.xaml.cs">
+    <Compile Update="TipoPagina\Navigation\Modal.xaml.cs">
       <DependentUpon>Modal.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="ContentePageGalante.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="TipoPagina\Carousel\IntroducaoApp.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TipoPagina\Carousel\Navigation\Pagina1.xaml">
+    <EmbeddedResource Update="TipoPagina\Master\Conteudo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TipoPagina\Carousel\Navigation\Pagina2.xaml">
+    <EmbeddedResource Update="TipoPagina\Master\Master.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TipoPagina\Carousel\Navigation\Modal.xaml">
+    <EmbeddedResource Update="TipoPagina\Navigation\Pagina1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TipoPagina\Navigation\Pagina2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TipoPagina\Navigation\Modal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TipoPagina\Carousel\TipoPagina1.xaml">
@@ -44,6 +53,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TipoPagina\Carousel\TipoPagina3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TipoPagina\Tabbed\Abas.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

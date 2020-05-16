@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App2_TipoPaginaXf.TipoPagina.Carousel.Navigation
+namespace App2_TipoPaginaXf.TipoPagina.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Pagina2 : ContentPage

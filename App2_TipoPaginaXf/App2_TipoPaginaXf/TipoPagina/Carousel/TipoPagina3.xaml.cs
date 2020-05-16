@@ -19,7 +19,14 @@ namespace App2_TipoPaginaXf.TipoPagina.Carousel
 
         private void MudarPagina(object sender, EventArgs e)
         {
-            App.Current.MainPage = new Navigation.Pagina1();
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1())
+            //{
+            //    BackgroundColor = Color.DarkMagenta,
+            //    BarTextColor = Color.Chocolate
+            //};
+
+            App.Current.MainPage = new Tabbed.Abas();
+            
         }
     }
 }

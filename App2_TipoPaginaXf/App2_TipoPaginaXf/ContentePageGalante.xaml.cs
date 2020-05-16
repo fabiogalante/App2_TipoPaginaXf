@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App2_TipoPaginaXf.TipoPagina.Carousel.Navigation
+namespace App2_TipoPaginaXf
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Modal : ContentPage
+    public partial class ContentePageGalante : ContentPage
     {
-        public Modal()
+        public ContentePageGalante()
         {
             InitializeComponent();
         }

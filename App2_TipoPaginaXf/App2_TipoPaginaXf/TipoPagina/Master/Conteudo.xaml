@@ -4,10 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App2_TipoPaginaXf.TipoPagina.Carousel.Navigation.Pagina2">
+             Title="Conteúdo"
+             x:Class="App2_TipoPaginaXf.TipoPagina.Master.Conteudo">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Sou a página 2"
+            <Label Text="Eu sou o conteúdo"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
